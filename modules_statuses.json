@@ -1,5 +1,5 @@
 {
-    "AoraPageBuilder":true,
+    "AoraPageBuilder": true,
     "FrontendCMS": true,
     "Appearance": true,
     "Blog": true,
@@ -38,6 +38,5 @@
     "Backup": true,
     "Utilities": true,
     "FormBuilder": true,
-    "MultiVendor": true,
-	"PageBuilder": false
+    "MultiVendor": false
 }
