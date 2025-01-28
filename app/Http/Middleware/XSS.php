@@ -10,8 +10,8 @@ class XSS
 {
     public function handle($request, Closure $next)
     {
-        \Log::info('Encryption Key: ' . config('app.key'));
-        \Log::info('Cipher: ' . config('app.cipher'));
+        // \Log::info('Encryption Key: ' . config('app.key'));
+        // \Log::info('Cipher: ' . config('app.cipher'));
 
         $inputs = $request->except(['_token','_method','code']);
         if(count($inputs) > 0 && $request->has('_token'))
