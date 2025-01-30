@@ -652,7 +652,7 @@
 @endphp
 
 <div id="filter_category_2" class="amaz_section section_spacing2 {{@$filter_category_2->status == 0?'d-none':''}}">
-    <div class="container ">
+    <div class="container">
         @if($category)
             <div class="row no-gutters">
                 <div class="col-xl-5 p-0 col-lg-12">
